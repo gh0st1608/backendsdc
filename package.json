@@ -1,0 +1,41 @@
+{
+  "name": "nodebackend",
+  "version": "1.0.0",
+  "description": "Proyecto WEb",
+  "main": "index.js",
+  "scripts": {
+    "dev": "export NODE_ENV=development && nodemon src/index.js",
+    "dev:win": "set NODE_ENV=development && nodemon src/index.js",
+    "test": "echo \"Test OK\" && exit 0",
+    "start": "export NODE_ENV=production && node src/index.js",
+    "start:win": "set NODE_ENV=production && node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1.35",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "http-status": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.4",
+    "morgan": "^1.10.0",
+    "pm2": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9",
+    "express": "^4.17.1",
+    "aws-sdk": "^2.1.35",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "dotenv-safe": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "express-fileupload": "^1.2.1",
+    "http-status": "^1.5.0"
+  }
+}
